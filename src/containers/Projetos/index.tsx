@@ -17,13 +17,13 @@ const projetos = [
   },
   {
     titulo: 'Nail Designer',
-    descricao: 'Site de roupas personalizadas',
+    descricao: 'Site institucional para nail designer',
     link: 'https://bruna-nail-designer.vercel.app',
     github: 'https://github.com/georgecmf/bruna-nail-designer'
   },
   {
     titulo: 'Projeto Restaurante',
-    descricao: 'Site de roupas personalizadas',
+    descricao: 'Site institucional para restaurante',
     link: 'https://gmf-projeto-restaurante.vercel.app',
     github: 'https://github.com/georgecmf/projeto-restaurante'
   }

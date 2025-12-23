@@ -9,7 +9,7 @@ type Props = {
 }
 
 const Sidebar = ({ trocaTema }: Props) => (
-  <aside>
+  <aside className="sidebar">
     <SidebarContainer>
       <Avatar />
 
