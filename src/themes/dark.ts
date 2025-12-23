@@ -1,17 +1,12 @@
-const temaDark = {
+// src/themes/dark.ts
+import { DefaultTheme } from 'styled-components'
+
+const temaDark: DefaultTheme = {
   corPrincipal: '#fff',
-  corSecundaria: '#eee',
-  corDeFundo: '#282a35',
-  corDeFundoBotao: '#fff',
-  corDaBorda: '#c1c1c1'
+  corSecundaria: '#aaa',
+  corDeFundo: '#000',
+  corDeFundoBotao: '#4d45beff',
+  corDaBorda: '#fff'
 }
 
 export default temaDark
-
-export type Theme = {
-  corPrincipal: string
-  corSecundaria: string
-  corDeFundo: string
-  corDeFundoBotao: string
-  corDaBorda: string
-}

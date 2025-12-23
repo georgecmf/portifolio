@@ -8,18 +8,26 @@ type Props = {
   trocaTema: () => void
 }
 
-const Sidebar = (props: Props) => (
+const Sidebar = ({ trocaTema }: Props) => (
   <aside>
     <SidebarContainer>
       <Avatar />
-      <Titulo fontSize={20}>George Marques</Titulo>
-      <Paragrafo tipo="secundario" fontSize={16}>
+
+      <Titulo fontSize={20}>
+        George Marques
+      </Titulo>
+
+      <Paragrafo $tipo="secundario" fontSize={16}>
         georgecmf
       </Paragrafo>
-      <Descricao tipo="principal" fontSize={12}>
-        Desenvolvedor júnior front-end
+
+      <Descricao $tipo="principal" fontSize={12}>
+        Desenvolvedor Front-end | React • TypeScript
       </Descricao>
-      <BotaoTema onClick={props.trocaTema}>Trocar tema</BotaoTema>
+
+      <BotaoTema onClick={trocaTema}>
+        Trocar tema
+      </BotaoTema>
     </SidebarContainer>
   </aside>
 )
