@@ -8,8 +8,8 @@ const Sobre = () => (
     <Paragrafo $tipo="principal">
       Sou desenvolvedor front-end em início de carreira, com foco em React,
       TypeScript e styled-components. Tenho experiência prática na criação de
-      interfaces responsivas, componentes reutilizáveis e organização de projetos
-      reais, desde o design até a implementação.
+      interfaces responsivas, componentes reutilizáveis e organização de
+      projetos reais, desde o design até a implementação.
     </Paragrafo>
 
     <GithubSecao>

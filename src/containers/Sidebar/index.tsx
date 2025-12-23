@@ -13,9 +13,7 @@ const Sidebar = ({ trocaTema }: Props) => (
     <SidebarContainer>
       <Avatar />
 
-      <Titulo fontSize={20}>
-        George Marques
-      </Titulo>
+      <Titulo fontSize={20}>George Marques</Titulo>
 
       <Paragrafo $tipo="secundario" fontSize={16}>
         georgecmf
@@ -25,9 +23,7 @@ const Sidebar = ({ trocaTema }: Props) => (
         Desenvolvedor Front-end | React • TypeScript
       </Descricao>
 
-      <BotaoTema onClick={trocaTema}>
-        Trocar tema
-      </BotaoTema>
+      <BotaoTema onClick={trocaTema}>Trocar tema</BotaoTema>
     </SidebarContainer>
   </aside>
 )

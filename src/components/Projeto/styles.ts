@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Card = styled.div`
   border: 1px solid ${(props) => props.theme.corDaBorda};
@@ -8,13 +8,13 @@ export const Card = styled.div`
 
   display: flex;
   flex-direction: column;
-`;
+`
 
 export const Actions = styled.div`
   display: flex;
   gap: 8px;
   margin-top: 16px;
-`;
+`
 
 export const LinkBotao = styled.a`
   flex: 1;
@@ -31,4 +31,4 @@ export const LinkBotao = styled.a`
   &:hover {
     opacity: 0.8;
   }
-`;
+`

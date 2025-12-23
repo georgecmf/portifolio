@@ -18,18 +18,17 @@ export const SidebarContainer = styled.div`
     position: static;
     margin-bottom: 40px;
   }
-`;
+`
 
 export const Descricao = styled.p<Props>`
   margin-top: 16px;
   margin-bottom: 24px;
-  font-size: ${(props) =>
-    props.fontSize ? `${props.fontSize}px` : '18px'};
+  font-size: ${(props) => (props.fontSize ? `${props.fontSize}px` : '18px')};
   color: ${(props) =>
     props.$tipo === 'secundario'
       ? props.theme.corSecundaria
       : props.theme.corPrincipal};
-`;
+`
 
 export const BotaoTema = styled.button`
   border-radius: 12px;
@@ -43,4 +42,4 @@ export const BotaoTema = styled.button`
   &:hover {
     opacity: 0.9;
   }
-`;
+`

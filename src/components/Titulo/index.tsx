@@ -6,9 +6,7 @@ export type Props = {
 }
 
 const Titulo = ({ children, fontSize }: Props) => (
-  <TituloEstilo $fontSize={fontSize}>
-    {children}
-  </TituloEstilo>
+  <TituloEstilo $fontSize={fontSize}>{children}</TituloEstilo>
 )
 
 export default Titulo

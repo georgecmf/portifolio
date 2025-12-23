@@ -1,5 +1,5 @@
 export type Theme = {
-    corDaBorda: string
-    corDeFundo: string
-    corDeFundoBotao: string
+  corDaBorda: string
+  corDeFundo: string
+  corDeFundoBotao: string
 }

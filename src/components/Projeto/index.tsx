@@ -14,9 +14,7 @@ const Projeto = ({ titulo, descricao, link, github }: Props) => {
     <Card>
       <Titulo>{titulo}</Titulo>
 
-      <Paragrafo $tipo="secundario">
-        {descricao}
-      </Paragrafo>
+      <Paragrafo $tipo="secundario">{descricao}</Paragrafo>
 
       <Actions>
         <LinkBotao href={link} target="_blank">
