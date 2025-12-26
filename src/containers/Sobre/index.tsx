@@ -1,21 +1,35 @@
 import Titulo from '../../components/Titulo'
 import Paragrafo from '../../components/Paragrafo'
-import { GithubSecao } from './styles'
+import { StackGrid, StackCard } from './styles'
+
+const stack = [
+  'React',
+  'TypeScript',
+  'Styled-components',
+  'HTML',
+  'CSS',
+  'Git',
+  'GitHub',
+  'Vercel'
+]
 
 const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre mim</Titulo>
+
     <Paragrafo $tipo="principal">
-      Sou desenvolvedor front-end em início de carreira, com foco em React,
-      TypeScript e styled-components. Tenho experiência prática na criação de
-      interfaces responsivas, componentes reutilizáveis e organização de
-      projetos reais, desde o design até a implementação.
+      Desenvolvedor front-end em início de carreira, com foco em React,
+      TypeScript e styled-components. Experiência na criação de interfaces
+      responsivas e projetos reais do zero ao deploy.
     </Paragrafo>
 
-    <GithubSecao>
-      <img src="https://github-readme-stats.vercel.app/api?username=georgecmf&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=georgecmf&layout=compact&langs_count=7&theme=dracula" />
-    </GithubSecao>
+    <Titulo fontSize={16}>Tecnologias</Titulo>
+
+    <StackGrid>
+      {stack.map((item) => (
+        <StackCard key={item}>{item}</StackCard>
+      ))}
+    </StackGrid>
   </section>
 )
 
