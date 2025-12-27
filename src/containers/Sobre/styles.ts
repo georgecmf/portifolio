@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 
 export const StackGrid = styled.ul`
-  margin-top: 16px;
-  margin-bottom: 48px;
+  margin-top: 32px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
@@ -26,7 +25,9 @@ export const StackCard = styled.li`
   font-weight: bold;
   color: ${(props) => props.theme.corPrincipal};
 
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 
   &:hover {
     transform: translateY(-4px);
