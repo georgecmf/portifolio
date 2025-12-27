@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Lista = styled.ul`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-top: 32px;
   column-gap: 36px;
   row-gap: 40px;
   padding: 0;
