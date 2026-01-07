@@ -24,7 +24,7 @@ const projetos = [
   {
     titulo: 'Projeto Restaurante',
     descricao: 'Site institucional para restaurante',
-    link: 'https://gmf-projeto-restaurante.vercel.app',
+    link: 'https://projeto-restaurante-one.vercel.app',
     github: 'https://github.com/georgecmf/projeto-restaurante'
   }
 ]
