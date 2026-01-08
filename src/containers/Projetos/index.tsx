@@ -6,7 +6,7 @@ const projetos = [
   {
     titulo: 'Clone Disney+',
     descricao: 'Clone da interface do Disney+',
-    link: 'https://clone-disneyplus-oixq.vercel.app',
+    link: 'https://clone-disneyplus-pied-xi.vercel.app',
     github: 'https://github.com/georgecmf/clone_disneyplus'
   },
   {
