@@ -8,12 +8,13 @@ export const Card = styled.div`
 
   display: flex;
   flex-direction: column;
+  gap: 12px;
 `
 
 export const Actions = styled.div`
   display: flex;
   gap: 8px;
-  margin-top: 16px;
+  margin-top: auto;
 `
 
 export const LinkBotao = styled.a`

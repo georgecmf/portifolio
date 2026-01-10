@@ -4,28 +4,32 @@ import { Lista } from './styles'
 
 const projetos = [
   {
-    titulo: 'Clone Disney+',
-    descricao: 'Clone da interface do Disney+',
-    link: 'https://clone-disneyplus-pied-xi.vercel.app',
-    github: 'https://github.com/georgecmf/clone_disneyplus'
-  },
-  {
     titulo: 'Mimos da Bru',
-    descricao: 'Site de roupas personalizadas',
+    descricao:
+      'Site institucional para marca de roupas personalizadas, com foco em apresentação de produtos, identidade visual e contato com clientes.',
     link: 'https://site-mimosbru-george.vercel.app',
-    github: 'https://github.com/georgecmf/mimos-da-bru'
+    github: 'https://github.com/georgecmf/site.mimosbru'
   },
   {
     titulo: 'Nail Designer',
-    descricao: 'Site institucional para nail designer',
+    descricao:
+      'Site institucional para profissional autônoma, destacando serviços, valores e facilitando o contato com clientes.',
     link: 'https://bruna-nail-designer.vercel.app',
     github: 'https://github.com/georgecmf/bruna-nail-designer'
   },
   {
     titulo: 'Projeto Restaurante',
-    descricao: 'Site institucional para restaurante',
+    descricao:
+      'Site institucional para restaurante, com apresentação do cardápio, informações do estabelecimento e layout responsivo.',
     link: 'https://projeto-restaurante-one.vercel.app',
     github: 'https://github.com/georgecmf/projeto-restaurante'
+  },
+  {
+    titulo: 'Clone Disney+',
+    descricao:
+      'Interface inspirada no Disney+, com layout responsivo, animações e organização de código focada em boas práticas de front-end.',
+    link: 'https://clone-disneyplus-pied-xi.vercel.app',
+    github: 'https://github.com/georgecmf/clone_disneyplus'
   }
 ]
 

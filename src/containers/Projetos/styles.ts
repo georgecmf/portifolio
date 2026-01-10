@@ -7,6 +7,12 @@ export const Lista = styled.ul`
   column-gap: 36px;
   row-gap: 40px;
   padding: 0;
+  list-style: none;
+  align-items: stretch;
+
+  li {
+    display: flex;
+  }
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
