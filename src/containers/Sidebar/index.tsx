@@ -1,9 +1,13 @@
 import Avatar from '../../components/Avatar'
 import Titulo from '../../components/Titulo'
 
-import { Descricao, BotaoTema, SidebarContainer, DescricaoContato } from './styles'
+import {
+  Descricao,
+  BotaoTema,
+  SidebarContainer,
+  DescricaoContato
+} from './styles'
 import { Mail, MessageCircle, Github } from 'lucide-react'
-
 
 type Props = {
   trocaTema: () => void
@@ -38,9 +42,6 @@ const Sidebar = ({ trocaTema }: Props) => (
       <Descricao $tipo="principal" fontSize={14}>
         Desenvolvedor Front-end | React • TypeScript
       </Descricao>
-
-
-
 
       <BotaoTema onClick={trocaTema}>Trocar tema</BotaoTema>
     </SidebarContainer>
